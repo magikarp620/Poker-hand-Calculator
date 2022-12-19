@@ -1,0 +1,11 @@
+extern int hands;
+extern int deck[13][4];
+extern int tablearray[23][2];
+extern int cardleft;
+extern int cdeck[14][5];
+int DeckMinusHand(int, char*[], int[13][4], int[23][2]);
+int DeckMinusComm(int, char*[], int[13][4], int[23][2], int[14][5]);
+void rdealer(int, int[13][4], int[23][2], int[14][5]);
+void handload(int, int [14][5], int[23][2]);
+void handlevel(int,int [14][5], int[9][7]);
+void recordrun(int[9][7], int[9]);
